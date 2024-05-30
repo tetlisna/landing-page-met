@@ -37,13 +37,13 @@ View the design mockup on Figma: [MET Landing Page Design](https://www.figma.com
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/tetlisna/todo-app.git
+   git clone https://github.com/tetlisna/todo-app.git](https://github.com/tetlisna/landing-page-met.git
 
 
 2. Navigate to the project directory:
 
    ```bash
-   cd todo-app
+   cd landing-page-met
 
 
 3. Install the dependencies:
