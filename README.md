@@ -41,16 +41,17 @@ View the design mockup on Figma: [MET Landing Page Design](https://www.figma.com
    ```bash
    git clone https://github.com/tetlisna/todo-app.git
 
-2. Install dependencies:
 
-  ```bash
+2. Navigate to the project directory:
+
+   ```bash
+   cd todo-app
+
+
+3. Install the dependencies:
+
+   ```bash
    npm install
-
-3. Start the project:
-
-  ```bash
-   npm start
-
 
 
 ## 🚀 Thank you for exploring the MET Landing Page project! 🚀
