@@ -53,4 +53,5 @@ View the design mockup on Figma: [MET Landing Page Design](https://www.figma.com
 
 
 
-Thank you for exploring the MET Landing Page project! 🚀
+## 🚀 Thank you for exploring the MET Landing Page project! 🚀
+
