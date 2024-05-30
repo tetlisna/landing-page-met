@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+
+  box-sizing: border-box;
+  height: 100vh;
+  background-image: url(../images/bg.png);
+  background-position: center;
+  background-size: cover;
+
+  &__title {
+    margin-top: 140px;
+    color: $text-color-main-white;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -1.5px;
+    text-transform: capitalize;
+    text-align: center;
+
+    @include on-tablet {
+      font-size: 64px;
+    }
+
+    @include on-desktop {
+      font-size: 84px;
+    }
+
+    &__link {
+      color: #fff;
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
-  "name": "gulp-boilerplate",
+  "name": "layout_landing-page",
   "version": "1.0.0",
-  "description": "Frontend boilerplate based on gulp",
+  "description": "Landing page",
   "scripts": {
     "init": "mate-scripts init",
     "start": "mate-scripts start",
@@ -22,7 +22,7 @@
     "@mate-academy/bemlint": "^0.1.1",
     "@mate-academy/eslint-config": "*",
     "@mate-academy/linthtml-config": "*",
-    "@mate-academy/scripts": "^1.7.0",
+    "@mate-academy/scripts": "^1.8.1",
     "@mate-academy/stylelint-config": "^0.0.11",
     "@parcel/transformer-sass": "2.10.2",
     "backstopjs": "^6.2.2",

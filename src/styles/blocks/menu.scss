@@ -1,0 +1,58 @@
+.menu {
+  box-sizing: border-box;
+  height: 100vh;
+  text-transform: uppercase;
+  color: $text-color-main-white;
+  background-color: $accent-color;
+  overflow: auto;
+  z-index: 1;
+
+  &__content {
+    @include content-padding-inline;
+  }
+
+  &__top {
+    margin-bottom: 32px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: $accent-color;
+  }
+
+  &__nav {
+    margin-bottom: 40px;
+  }
+
+  &__contacts {
+    margin: 16px 0;
+
+    & > :nth-child(2) {
+      margin-bottom: 8px;
+    }
+  }
+
+  &__call {
+    display: block;
+    padding-bottom: 7px;
+    width: fit-content;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: inherit;
+
+    &:hover {
+      border-bottom: 1px solid $text-color-main-white;
+    }
+  }
+
+  &__text,
+  &__tel {
+    display: block;
+
+    font-size: $font-size-default;
+    font-weight: 600;
+    line-height: 27px;
+    color: inherit;
+  }
+}

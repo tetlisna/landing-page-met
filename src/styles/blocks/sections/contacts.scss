@@ -1,0 +1,70 @@
+.contacts {
+  &__title {
+    margin-bottom: 48px;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+
+    @include on-tablet {
+      grid-column: 1/4;
+    }
+
+    @include on-desktop {
+      grid-column: span 6;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 48px 0;
+
+    @include on-tablet {
+      @include sections-block;
+    }
+  }
+
+  &__form {
+    @include on-tablet {
+      grid-column: span 3;
+    }
+
+    @include on-desktop {
+      grid-column: 8 / -1;
+    }
+  }
+  &__address-title {
+    text-transform: capitalize;
+    margin-bottom: 16px;
+    line-height: 169%;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    &-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+  }
+
+  &__link {
+    font-weight: 700;
+    line-height: 169%;
+    color: #3e3e3e;
+
+    transition: color $animation-duration;
+
+    &:hover {
+      color: $accent-color-hover;
+    }
+  }
+}

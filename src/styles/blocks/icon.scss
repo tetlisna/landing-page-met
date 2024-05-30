@@ -1,0 +1,59 @@
+.icon {
+  display: block;
+  height: 24px;
+  width: 24px;
+  background-size: cover;
+  background-position: center;
+
+  transition: transform $animation-duration;
+
+  @include hover(transform, scale(1.2));
+
+  &__phones {
+    position: relative;
+    top: 50%;
+    display: block;
+    width: max-content;
+    padding-right: 20px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    color: #fff;
+    opacity: 0;
+    transform: translate(-100%, -50%);
+    pointer-events: none;
+
+    transition: opacity $animation-duration, transform $animation-duration;
+  }
+
+  &--tel {
+    background-image: url(../images/icons/icon-tel.svg);
+
+    &:hover .phones {
+      @include on-desktop {
+        opacity: 1;
+        pointer-events: all;
+      }
+    }
+  }
+
+  &--menu {
+    background-image: url(../images/icons/icon-menu.svg);
+
+    &:hover {
+      background-image: url(../images/icons/icon-menu-hover.svg);
+    }
+  }
+
+  &--close {
+    background-image: url(../images/icons/icon-menu-close.svg);
+    color: $text-color-main-white;
+    background-repeat: no-repeat;
+  }
+
+  @include on-tablet {
+    height: 32px;
+    width: 32px;
+  }
+}
