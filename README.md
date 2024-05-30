@@ -28,12 +28,27 @@ Check out the live demo here: [DEMO LINK](https://tetlisna.github.io/landing-pag
 View the design mockup on Figma: [MET Landing Page Design](https://www.figma.com/file/lSR1m42L9YwzQwzzxKwHpw/THE-MET)
 
 
-## 📋 Project Overview
-The MET Landing Page project is designed to be a seamless, interactive, and responsive landing page that provides a delightful user experience. 
+## 🚀 Quick Start
 
-## 📄 Installation and Usage
-### Install dependencies:
-```bash
-npm install
+### Prerequisites
+
+- Ensure you have Node.js installed. Recommended version: `>=14.0.0`.
+
+### Cloning the Project
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/tetlisna/todo-app.git
+
+2. Install dependencies:
+
+  ```bash
+  npm install
+
+3. Start the project:
+
+  ```bash
+  npm start
 
 Thank you for exploring the MET Landing Page project! 🚀
