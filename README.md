@@ -21,7 +21,7 @@ Welcome to the MET Landing Page project! This project is inspired by the Met web
 
 ### Demo
 
-Check out the live demo here: [DEMO LINK](https://tetlisna.github.io/layout_landing-page/)
+Check out the live demo here: [DEMO LINK](https://tetlisna.github.io/landing-page-met/)
 
 ### Design Mockup
 
