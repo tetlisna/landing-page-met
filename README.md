@@ -34,8 +34,6 @@ View the design mockup on Figma: [MET Landing Page Design](https://www.figma.com
 
 - Ensure you have Node.js installed. Recommended version: `>=14.0.0`.
 
-### Cloning the Project
-
 1. Clone the repository to your local machine:
 
    ```bash
@@ -52,6 +50,12 @@ View the design mockup on Figma: [MET Landing Page Design](https://www.figma.com
 
    ```bash
    npm install
+
+
+4. Start the project:
+
+   ```bash
+   npm start
 
 
 ## 🚀 Thank you for exploring the MET Landing Page project! 🚀
