@@ -44,11 +44,13 @@ View the design mockup on Figma: [MET Landing Page Design](https://www.figma.com
 2. Install dependencies:
 
   ```bash
-  npm install
+   npm install
 
 3. Start the project:
 
   ```bash
-  npm start
+   npm start
+
+
 
 Thank you for exploring the MET Landing Page project! 🚀
